@@ -1,0 +1,60 @@
+[debug] [2022-03-28T19:40:52.978Z] ----------------------------------------------------------------------
+[debug] [2022-03-28T19:40:52.980Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Eduardo Cadena\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-03-28T19:40:52.981Z] CLI Version:   10.5.0
+[debug] [2022-03-28T19:40:52.981Z] Platform:      win32
+[debug] [2022-03-28T19:40:52.981Z] Node Version:  v14.16.0
+[debug] [2022-03-28T19:40:52.982Z] Time:          Mon Mar 28 2022 13:40:52 GMT-0600 (Central Standard Time)
+[debug] [2022-03-28T19:40:52.982Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-03-28T19:40:53.055Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-03-28T19:40:53.055Z] > authorizing via signed-in user (jcadenabernal@gmail.com)
+[debug] [2022-03-28T19:40:53.249Z] java version "16" 2021-03-16
+
+[debug] [2022-03-28T19:40:53.249Z] Java(TM) SE Runtime Environment (build 16+36-2231)
+Java HotSpot(TM) 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
+
+[debug] [2022-03-28T19:40:53.272Z] Parsed Java major version: 16
+[info] i  emulators: Starting emulators: auth, firestore, hosting, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, firestore, hosting, storage"}}
+[debug] [2022-03-28T19:40:53.304Z] [hub] writing locator at C:\Users\Eduardo Cadena\AppData\Local\Temp\hub-spike-70135.json
+[debug] [2022-03-28T19:40:53.317Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2022-03-28T19:40:53.317Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-03-28T19:40:53.318Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\Eduardo Cadena\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.14.1.jar","--host","localhost","--port",8080,"--rules","C:\\Users\\Eduardo Cadena\\Documents\\Tecnologico de Monterrey\\8vo semestre\\vue\\spike\\firestore.rules"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Eduardo Cadena\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.14.1.jar\",\"--host\",\"localhost\",\"--port\",8080,\"--rules\",\"C:\\\\Users\\\\Eduardo Cadena\\\\Documents\\\\Tecnologico de Monterrey\\\\8vo semestre\\\\vue\\\\spike\\\\firestore.rules\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"functions_emulator\",\"seed_from_export\"],\"joinArgs\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2022-03-28T19:41:04.201Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-03-28T19:41:05.666Z] Temp file directory for storage emulator: C:\Users\Eduardo Cadena\AppData\Local\Temp/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: C:\\Users\\Eduardo Cadena\\AppData\\Local\\Temp/firebase/storage/blobs"}}
+[debug] [2022-03-28T19:41:05.683Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/spike-70135/sites 
+[debug] [2022-03-28T19:41:06.098Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/spike-70135/sites 200
+[debug] [2022-03-28T19:41:06.098Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/spike-70135/sites {"sites":[{"name":"projects/191597870872/sites/spike-70135","defaultUrl":"https://spike-70135.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-03-28T19:41:06.098Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/spike-70135/webApps/-/config [none]
+[debug] [2022-03-28T19:41:06.400Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/spike-70135/webApps/-/config 200
+[debug] [2022-03-28T19:41:06.400Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/spike-70135/webApps/-/config {"projectId":"spike-70135","appId":"1:191597870872:web:4b43fd7964e5419e7e686d","storageBucket":"spike-70135.appspot.com","locationId":"us-central","apiKey":"AIzaSyBiqpKGXbwrUqdq9HrcrurMwVX4ulS1vrg","authDomain":"spike-70135.firebaseapp.com","messagingSenderId":"191597870872"}
+[info] i  hosting: Serving hosting files from: dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-03-28T19:41:06.435Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-03-28T19:41:06.435Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-03-28T19:41:06.436Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Eduardo Cadena\\.cache\\firebase\\emulators\\ui-v1.6.5\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Eduardo Cadena\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.5\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-03-28T19:41:06.628Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ localhost:9099 │ http://localhost:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ localhost:8080 │ http://localhost:4000/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Hosting        │ localhost:5000 │ n/a                             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Storage        │ localhost:9199 │ http://localhost:4000/storage   │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
